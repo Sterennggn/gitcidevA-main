@@ -8,16 +8,13 @@ test('initial task list is empty', () => {
   expect(getTasks()).toEqual([]);
 });
 
-function addTask(name) {
-  const trimmed = name.trim();
-  if (!trimmed) {
-    throw new Error("name is required");
-  }
-  const task = {
-    id: nextId++,
-    name: trimmed,
+test('addTask creates a task with correct properties', () => {
+  const task = addTask('  Learn Jest  ');
+  expect(task).toEqual({
+    id: expect.any(Number), 
+    name: 'Learn Jest',
     done: false
-  };
-}
+  });
+})
 
 
