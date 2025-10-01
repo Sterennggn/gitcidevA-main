@@ -1,0 +1,9 @@
+function toggleTask(task) {
+  task.done = !task.done;
+  console.log("modiff task")
+} 
+
+module.exports = {toggleTask};
+
+
+
