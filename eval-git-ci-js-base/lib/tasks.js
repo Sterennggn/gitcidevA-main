@@ -13,7 +13,7 @@ function reset() {
 
 function addTask(name) {
   return {
-    id: Date.now(), // id unique
+    id: Date.now(), 
     name: name.trim(),
     done: false
   };

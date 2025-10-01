@@ -1,8 +1,9 @@
-function toggleTask(task: { done: boolean; }) {
+function toggleTask(task) {
   task.done = !task.done;
-}
+  return task;
+} 
 
-
+module.exports = {toggleTask};
 
 
 

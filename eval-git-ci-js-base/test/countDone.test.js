@@ -1,3 +1,5 @@
+const {countDone} = require('../lib/countDone');
+
 test('countDone compte les tâches terminées', () => {
   const tasks = [
     { done: false },

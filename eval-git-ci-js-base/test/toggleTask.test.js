@@ -1,3 +1,5 @@
+const {toggleTask} = require('../lib/toggleTask');
+
 test('toggleTask inverse done', () => {
   const task = { done: false };
 
