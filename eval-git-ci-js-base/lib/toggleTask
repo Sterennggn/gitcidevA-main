@@ -1,0 +1,8 @@
+function toggleTask(task: { done: boolean; }) {
+  task.done = !task.done;
+}
+
+
+
+
+
