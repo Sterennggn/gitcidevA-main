@@ -1,9 +1,19 @@
+Binôme: Laetitia Saidi et Sterenn Gougeon
+
+On a créé plusieurs branches qui chacunes correspondent au différents ajouts de code javascript. 
+
+Commandes git:
+git add
+git commit -u "message du commit"
+git branch - pour créer les branches
+git checkout branch - pour changer de branche
+pull request pour ajouter les modifications sur git 
+
 Description des différences entre :
 
 Switch et checkout :
 
 La commande “switch” permet de changer de branche ou d’en créer.
-
 La commande “checkout” quant à lui, a la même fonction que switch mais peut aussi restaurer des fichiers,
 
 La différence entre ces deux commandes est que switch ne sert qu’à changer de branch ou d’en créer, tant dis que checkout peut en plus restaurer des fichiers en plus des fonctionnalités qu’a switch.
@@ -11,7 +21,6 @@ La différence entre ces deux commandes est que switch ne sert qu’à changer d
 Pull et Fetch :
 
 La commande “Fetch” permet de télécharger des documents d’un dépôt distant au dépôt local.
-
 La commande “Pull” permet de mettre à jour le téléchargement fait d’un dépôt distant au dépôt local.
 
 La différence entre ces deux commandes est que fetch n’a qu’une seule fonction, celui de télécharger un dépôt, alors que pull à cette fonction de télécharger un dépôt et de le mettre à jour dans le dépôt local de l’utilisateur.
@@ -19,7 +28,6 @@ La différence entre ces deux commandes est que fetch n’a qu’une seule fonct
 Rebase et Revert :
 
 La commande “Rebase” permet de déplacer ou de réappliquer des commits sur une branche à une autre.
-
 La commande “Revert” permet d’annuler les modifications qui a pu été fait sur un commit et de revenir en arrière en cas d’erreur.
 
 La différence de ces deux commandes est de pouvoir déplacer ou d’appliquer a nouveaux des commits déja fait (rebase), contrairement à revert qui a pour fonction d’annuler les changements fait sur un commit.
@@ -27,9 +35,5 @@ La différence de ces deux commandes est de pouvoir déplacer ou d’appliquer a
 Description des commandes :
 
 Tag : elle sert à marquer des points dans l’historique d’un dépôt Git pour identifier des versions importantes.
-
 Stash : Elle sert à sauvegarder le répertoire d’un travail sans faire de commit afin de gérer les modifications nécessaires.
-
 Release : C’est une version publiée d’un projet, qui peut inclure des notes ou des fichiers qui est distribuable.
-
-La binôme: Laetitia Saidi et Sterenn Gougeon
